@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light my-3 px-5">
+        <a class="navbar-brand logo" href="#">
+            <img src="./imgs/Toslide_logo.png" alt="logo" class="logo-img">
+        </a>      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>    
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="nav navbar-nav toslide-normal-font-style align-items-center">
+                    <li class="nav-item me-5"><a class="nav-link fw-bold" href="#">Audience Q&A System</a></li>
+                    <li class="nav-item me-5"><a class="nav-link fw-bold" href="#">Online Lecture</a></li>
+                    <li class="nav-item me-5"><a class="nav-link fw-bold" href="#">Online Exam</a></li>
+                    <li class="nav-item me-5"><a class="nav-link fw-bold" href="#">Picture</a></li>
+                    <li class="nav-item toslide-ms-lg"><button class="btn lan-toggler"><img src="./imgs/lan_toggle_btn.png" alt="lan_toggle_btn"></button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid toslide-main-content d-flex justify-content-around">
+        <div class="d-flex flex-column toslide-m-lg">
+            <span class="toslide-slogan fw-bold text-white mb-3">Large Audience into<br>Active Contributors</span>
+            <span class="text-white my-4">Hongik DMP Labs + Sunny Grappy Inc</span>
+            <div class="mode-select">
+                <button type="button" class="fw-bold px-5 py-2 bg-white btn me-4">Lecturer</button>
+                <button type="button" class="fw-bold px-5 py-2 bg-white btn">Audience</button>
+            </div>
+        </div>
+        <div class="d-flex flex-column toslide-m-lg">
+            <section class="toslide-tutorial bg-white d-flex flex-column align-items-center toslide-p-lg mb-5">
+                <img src="./imgs/Audience_Q&A.png" alt="Audience_Q&A.png" class="toslide-tutorial-icon mb-4">
+                <span class="fw-bold">Audience Q&A System</span>
+            </section>
+            <section class="toslide-tutorial bg-white d-flex flex-column align-items-center toslide-p-lg mb-5">
+                <img src="./imgs/Online_test.png" alt="Online_test.png" class="toslide-tutorial-icon mb-4">
+                <span class="fw-bold">Online Narrative Exam</span>
+            </section>
+            <section class="toslide-tutorial bg-white d-flex flex-column align-items-center toslide-p-lg mb-5">
+                <img src="./imgs/Online_lecture.png" alt="Online_lecture.png" class="toslide-tutorial-icon mb-4">
+                <span class="fw-bold">Online Lecture - Share Synced File</span>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

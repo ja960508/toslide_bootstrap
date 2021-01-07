@@ -1,0 +1,1 @@
+const lanToggler = document.querySelector
