@@ -1,0 +1,51 @@
+:root {
+    --toslide-blue: #3f3fea;
+    --toslide-gray: #707070;
+    --toslide-light-gray: #B2B2B2;
+    --toslide-purple-blue: rgba(63, 63, 234, 0.2);
+    --toslide-dark-blue: rgb(19, 29, 179);
+    --toslide-very-large-font-size: 35px;
+    --toslide-icon-size: 90px;
+    --border-radius: 24px;
+    --tutorial-margin-bottom: 6rem;
+    --gap-between-container: 84px;
+    --margin-normal: 12px;
+    --margin-large: 4rem;
+    --margin-very-large: 8rem;
+    --padding-middle: 1rem;
+    --padding-large: 2rem;
+}
+
+
+
+
+.tutorial-main {
+    border-top: 1px solid var(--toslide-gray);
+    color: var(--toslide-gray);
+}
+
+.tutorial-main ul {
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none;
+}
+
+.tutorial-main ul li {
+    margin-left: calc(var(--margin-large) / 2);
+}
+
+.sidebar {
+    border-right: 2px solid var(--toslide-light-gray);
+}
+
+.guide__title {
+    cursor: pointer;
+}
+
+.tutorial-main article {
+    line-height: 2.5rem;
+}
+
+.tutorial-main article > * {
+    border-bottom: 1px solid var(--toslide-light-gray);
+}
