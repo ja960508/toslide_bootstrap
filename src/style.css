@@ -70,7 +70,6 @@ body {
 
 .toslide-main-content {
     background-image: url('../imgs/main_back_img.svg');
-    background-repeat: repeat-y;
     height: 100%;
 }
 
